@@ -1,0 +1,71 @@
+.menu-page {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .menu-section {
+    margin-bottom: 40px;
+  }
+  
+  .section-title {
+    font-size: 2.5em;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .dish-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .dish-card {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 15px;
+    width: 300px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden; /* Ensures no overflow */
+  }
+  
+  .dish-image {
+    width: 100%;
+    height: 200px; /* Ensures all images are the same height */
+    object-fit: cover; /* Scales image to fill the space without distortion */
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .dish-info {
+    flex-grow: 1;
+    text-align: center;
+  }
+  
+  .price {
+    font-weight: bold;
+    color: #ff6347;
+    margin-top: 10px;
+  }
+  
+  .cta-button {
+    background-color: #ff6347;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 25px; /* Rounded button */
+    text-align: center;
+    font-size: 1em;
+    margin-top: 10px;
+    display: block;
+    transition: background-color 0.3s ease;
+  }
+  
+  .cta-button:hover {
+    background-color: #ff4500;
+  }
+  
