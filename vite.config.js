@@ -9,4 +9,7 @@ export default defineConfig({
       "/api": "https://yumback.onrender.com",
     },
   },
+  build: {
+    assetsDir: "assets", // Ensure this matches the location of your static assets
+  },
 });
