@@ -3,6 +3,26 @@ import "./Services.css"; // Import the CSS file
 import Navbar from "./Navbar";
 import Footer from "./Footer";
 
+// Import images
+import L1 from "./assets/L1.jpg";
+import L2 from "./assets/L2.jpg";
+import L3 from "./assets/L3.jpg";
+import F1 from "./assets/F1.jpg";
+import F2 from "./assets/F2.jpg";
+import F3 from "./assets/F3.jpg";
+import co1 from "./assets/co1.jpg";
+import co2 from "./assets/co2.jpg";
+import co3 from "./assets/co3.jpg";
+import t1 from "./assets/t1.jpg";
+import t2 from "./assets/t2.jpg";
+import t3 from "./assets/t3.jpg";
+import di1 from "./assets/di1.jpg";
+import di2 from "./assets/di2.jpg";
+import di3 from "./assets/di3.jpg";
+import ev1 from "./assets/ev1.jpg";
+import ev2 from "./assets/ev2.jpg";
+import ev3 from "./assets/ev3.jpg";
+
 const ServiceCard = ({ title, images, description, features }) => (
   <div className="service-card">
     <h3>{title}</h3>
@@ -33,11 +53,7 @@ const Services = () => {
           <div className="service-cards">
             <ServiceCard
               title="Luxury Dining Experience"
-              images={[
-                "/src/assets/L1.jpg",
-                "/src/assets/L2.jpg",
-                "/src/assets/L3.jpg",
-              ]}
+              images={[L1, L2, L3]}
               description="Enjoy an exquisite dining experience with world-class cuisine and elegant ambiance."
               features={[
                 "Gourmet Cuisine",
@@ -47,11 +63,7 @@ const Services = () => {
             />
             <ServiceCard
               title="Family-Friendly Dining"
-              images={[
-                "/src/assets/F1.jpg",
-                "/src/assets/F2.jpg",
-                "/src/assets/F3.jpg",
-              ]}
+              images={[F1, F2, F3]}
               description="Relax with your family in a cozy environment with a diverse menu for all ages."
               features={[
                 "Family Menu Options",
@@ -68,21 +80,13 @@ const Services = () => {
           <div className="service-cards">
             <ServiceCard
               title="Concerts and Shows"
-              images={[
-                "/src/assets/co1.jpg",
-                "/src/assets/co2.jpg",
-                "/src/assets/co3.jpg",
-              ]}
+              images={[co1, co2, co3]}
               description="Experience live music and performances from top artists and entertainers."
               features={["Live Music", "Top Performers", "Vibrant Atmosphere"]}
             />
             <ServiceCard
               title="Theatre Productions"
-              images={[
-                "/src/assets/t1.jpg",
-                "/src/assets/t2.jpg",
-                "/src/assets/t3.jpg",
-              ]}
+              images={[t1, t2, t3]}
               description="Enjoy captivating theatre performances in a professional setting."
               features={[
                 "Diverse Productions",
@@ -99,11 +103,7 @@ const Services = () => {
           <div className="service-cards">
             <ServiceCard
               title="Dining Discounts"
-              images={[
-                "/src/assets/di1.jpg",
-                "/src/assets/di2.jpg",
-                "/src/assets/di3.jpg",
-              ]}
+              images={[di1, di2, di3]}
               description="Take advantage of special offers and discounts on dining experiences."
               features={[
                 "Seasonal Discounts",
@@ -113,11 +113,7 @@ const Services = () => {
             />
             <ServiceCard
               title="Event Packages"
-              images={[
-                "/src/assets/ev1.jpg",
-                "/src/assets/ev2.jpg",
-                "/src/assets/ev3.jpg",
-              ]}
+              images={[ev1, ev2, ev3]}
               description="Get exclusive packages for live events and theatre shows."
               features={["Exclusive Packages", "Premium Seating", "VIP Access"]}
             />

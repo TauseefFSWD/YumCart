@@ -3,6 +3,27 @@ import "./Home.css";
 import Navbar from "./Navbar";
 import Footer from "./Footer";
 
+// Import images directly
+import pizza1 from "./assets/1.jpg";
+import pizza2 from "./assets/2.jpg";
+import pizza3 from "./assets/3.jpg";
+import pizza4 from "./assets/4.jpg";
+import pasta1 from "./assets/5.jpg";
+import pasta2 from "./assets/6.jpg";
+import pasta3 from "./assets/7.jpg";
+import pasta4 from "./assets/8.jpg";
+import wings1 from "./assets/9.jpg";
+import wings2 from "./assets/10.jpg";
+import wings3 from "./assets/11.jpg";
+import taco1 from "./assets/12.jpg";
+import taco2 from "./assets/13.jpg";
+import taco3 from "./assets/14.jpg";
+import seafood1 from "./assets/15.jpg";
+import seafood2 from "./assets/16.jpg";
+import dessert1 from "./assets/17.jpg";
+import dessert2 from "./assets/18.jpg";
+import dessert3 from "./assets/19.jpg";
+
 const Home = () => {
   const sections = [
     {
@@ -12,25 +33,25 @@ const Home = () => {
           name: "Margherita Pizza",
           description: "Classic cheese and tomato pizza.",
           price: "$10.99",
-          image: "/src/assets/1.jpg",
+          image: pizza1,
         },
         {
           name: "Pepperoni Pizza",
           description: "Pepperoni with mozzarella cheese.",
           price: "$12.99",
-          image: "/src/assets/2.jpg",
+          image: pizza2,
         },
         {
           name: "BBQ Chicken Pizza",
           description: "Grilled chicken, BBQ sauce, and onions.",
           price: "$13.99",
-          image: "/src/assets/3.jpg",
+          image: pizza3,
         },
         {
           name: "Veggie Delight",
           description: "Bell peppers, onions, mushrooms, and olives.",
           price: "$11.99",
-          image: "/src/assets/4.jpg",
+          image: pizza4,
         },
       ],
     },
@@ -41,25 +62,25 @@ const Home = () => {
           name: "Spaghetti Bolognese",
           description: "Traditional Italian pasta with beef sauce.",
           price: "$14.99",
-          image: "/src/assets/5.jpg",
+          image: pasta1,
         },
         {
           name: "Fettuccine Alfredo",
           description: "Creamy Alfredo sauce with parmesan.",
           price: "$13.49",
-          image: "/src/assets/6.jpg",
+          image: pasta2,
         },
         {
           name: "Shrimp Pasta",
           description: "Shrimp in a garlic butter sauce with linguine.",
           price: "$16.99",
-          image: "/src/assets/7.jpg",
+          image: pasta3,
         },
         {
           name: "Chicken Parmesan",
           description: "Breaded chicken with marinara sauce and cheese.",
           price: "$15.49",
-          image: "/src/assets/8.jpg",
+          image: pasta4,
         },
       ],
     },
@@ -70,19 +91,19 @@ const Home = () => {
           name: "Caesar Wings",
           description: "Crispy romaine, croutons, and Caesar dressing.",
           price: "$8.99",
-          image: "/src/assets/9.jpg",
+          image: wings1,
         },
         {
           name: "Greek Style Burger",
           description: "Feta cheese, olives, cucumber, and tomatoes.",
           price: "$9.99",
-          image: "/src/assets/10.jpg",
+          image: wings2,
         },
         {
           name: "Chicken Wings Burger",
           description: "Spicy buffalo wings with ranch dip.",
           price: "$11.49",
-          image: "/src/assets/11.jpg",
+          image: wings3,
         },
       ],
     },
@@ -93,19 +114,19 @@ const Home = () => {
           name: "Seafood Style Taco",
           description: "Juicy fish patty with lettuce and tomato.",
           price: "$12.49",
-          image: "/src/assets/12.jpg",
+          image: taco1,
         },
         {
           name: "Prawns Taco",
           description: "Grilled chicken breast with mayo.",
           price: "$11.99",
-          image: "/src/assets/13.jpg",
+          image: taco2,
         },
         {
           name: "Grilled Salmon",
           description: "Grilled veggies in a whole wheat wrap.",
           price: "$9.99",
-          image: "/src/assets/14.jpg",
+          image: taco3,
         },
       ],
     },
@@ -116,13 +137,13 @@ const Home = () => {
           name: "Fish Tacos",
           description: "Crispy fish with slaw and lime.",
           price: "$10.49",
-          image: "/src/assets/15.jpg",
+          image: seafood1,
         },
         {
           name: "Vegetarian Wrap",
           description: "Salmon fillet with lemon butter sauce.",
           price: "$18.99",
-          image: "/src/assets/16.jpg",
+          image: seafood2,
         },
       ],
     },
@@ -133,19 +154,19 @@ const Home = () => {
           name: "Tiramisu",
           description: "Italian coffee-flavored dessert.",
           price: "$7.49",
-          image: "/src/assets/17.jpg",
+          image: dessert1,
         },
         {
           name: "Cheesecake",
           description: "Creamy cheesecake with a graham cracker crust.",
           price: "$6.99",
-          image: "/src/assets/18.jpg",
+          image: dessert2,
         },
         {
           name: "Chocolate Brownie",
           description: "Rich chocolate brownie with vanilla ice cream.",
           price: "$5.99",
-          image: "/src/assets/19.jpg",
+          image: dessert3,
         },
       ],
     },
